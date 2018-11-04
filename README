@@ -1,0 +1,33 @@
+ECE1387 Assignment 2 README file
+- developer:	Louis Chen
+- date:		Nov 2, 2018
+
+Please read this file before compiling and launching the analytical placer.
+
+Please follow the steps below to achieve successful compilation.
+1)  Use <cd> to switch to the "a2" directory.
+2)  Type <make> or <make all> to compile the source code.
+    This will generate an executable called "Placer-LouisChen".
+    Note that SuiteSparse library is compiled by default. If it complains
+    about library issue, you may consider recompiling the library.
+3)  Type <make clean> if wish to clean the project.
+
+Please follow the steps below to launch the application successfully.
+4)  Use <pwd> to make sure current directory is "a2".
+5)  To run the application, type <./Placer-LouisChen "cct-file-path">.
+    The test circuit files are under the "a2/testcases" directory.
+
+Please follow the steps below to execute the application successfully.
+6)  Press <Proceed> to initialize the program (solve linear system once).
+7)  Now you should see 3 buttons got created
+    - Press <Rat's Nest ON/OFF> to turn on/off rat's nest.
+    - Press <Snap to Grid> to perform fitting.
+    - Press <Constraint ON/OFF> to turn on/off placement restriction.
+    Always make sure <Constraint ON/OFF> is configured to your wish
+    before pressing <Snap to Grid>.
+8)  Press <Proceed> to execute 1 spread and solve iteration.
+9)  When <Snap to Grid> is pressed, pressing <Proceed> or <Exit> will
+    exit the program mercifully.
+
+Hope you had a great time exploring my analytical placer program! :)
+
